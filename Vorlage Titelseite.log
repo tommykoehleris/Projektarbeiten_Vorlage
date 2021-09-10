@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.7)  10 SEP 2021 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.7)  10 SEP 2021 14:05
 entering extended mode
-**"./Eigene Vorlage Titelseite Projektarbeiten.tex"
-(Eigene Vorlage Titelseite Projektarbeiten.tex
+**"./Vorlage Titelseite.tex"
+(Vorlage Titelseite.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27>
 (C:\Users\toko\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
@@ -214,8 +214,8 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count194
 \l__pdf_internal_box=\box52
 )
-No file "Eigene Vorlage Titelseite Projektarbeiten".aux.
-\openout1 = `"Eigene Vorlage Titelseite Projektarbeiten.aux"'.
+No file "Vorlage Titelseite".aux.
+\openout1 = `"Vorlage Titelseite.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -273,28 +273,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/toko/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-No file "Eigene Vorlage Titelseite Projektarbeiten".toc.
-\tf@toc=\write3
-\openout3 = `"Eigene Vorlage Titelseite Projektarbeiten.toc"'.
-
-[2] [3] [4] [5] (Eigene Vorlage Titelseite Projektarbeiten.aux) ) 
+(Vorlage Titelseite.aux) ) 
 Here is how much of TeX's memory you used:
- 5776 strings out of 478927
- 115249 string characters out of 2853010
- 541730 words of memory out of 3000000
- 23598 multiletter control sequences out of 15000+600000
- 410182 words of font info for 52 fonts, out of 8000000 for 9000
+ 5730 strings out of 478927
+ 113813 string characters out of 2853010
+ 541684 words of memory out of 3000000
+ 23555 multiletter control sequences out of 15000+600000
+ 409287 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,7n,108p,10640b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/toko
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
-ers/toko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
-><C:/Users/toko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-ssbx10.pfb>
-Output written on "Eigene Vorlage Titelseite Projektarbeiten.pdf" (5 pages, 440
-60 bytes).
+ 108i,7n,108p,10617b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/toko/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/toko/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on "Vorlage Titelseite.pdf" (1 page, 29834 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 16 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
