@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.7)  15 SEP 2021 09:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.7)  15 SEP 2021 10:26
 entering extended mode
-**"./Vorlage Titelseite.tex"
-(Vorlage Titelseite.tex
+**./Titelseite.tex
+(Titelseite.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27>
 
@@ -249,10 +249,10 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
-Missing character: There is no K in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -346,17 +346,17 @@ Overfull \hbox (15.00008pt too wide) in paragraph at lines 11--36
 
 )
 ! Emergency stop.
-<*> "./Vorlage Titelseite.tex"
-                              
+<*> ./Titelseite.tex
+                    
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
  34 strings out of 478927
- 590 string characters out of 2853010
+ 546 string characters out of 2853010
  292175 words of memory out of 3000000
  17992 multiletter control sequences out of 15000+600000
  403738 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,7n,32p,112b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,7n,32p,102b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
