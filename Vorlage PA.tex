@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt]{scrreprt}
+
+\usepackage{ucs}				%auch UTF8 package, gleich wie utf8x{inputenc}
+%\usepackage[utf8x]{inputenc}	%damit man UTF8 benutzt
+\usepackage[ngerman]{babel}		%für ä,ö,ü usw.
+\usepackage{graphicx} 			%zum Bilder einfügen
+%\usepackage[T1]{fontenc}		%andere Schriftart
+\usepackage{amssymb}			%für Symbol
+
+%SCR PAGESTYLE
+
+%\usepackage{scrlayer-scrpage}			%Package laden
+%\pagestyle{scrheadings}
+%\clearpairofpagestyles			%lösche alle Kopf und Fußzeilen
+%\automark{chapter}				%Autoerkenneung Chapter
+%\ohead{Projektarbeit}
+%\cfoot{\pagemark}% Seitenzahl
+%\renewcommand{\chaptermark}[1]{\markright{\ #1}} %löscht die Nummerierung von Chapter
+%\ihead{\textbf{\rightchapter}}
+
+\renewcommand{\chapterpagestyle}{fancy} 	%Kopfzeile auch auf Chapter-Seiten
+
+%FANCY PAGESTYLE
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\lhead{Tommy Köhler}
+\chead{}
+\rhead{Projektarbeit}
+
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\begin{document}
+
+\input{Vorlage Titelseite}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\input{Einleitung}
+
+\input{Hauptteil}
+
+\input{Anhang}
+
+\end{document}
