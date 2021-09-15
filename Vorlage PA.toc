@@ -1,8 +1,8 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{3}{}%
-\contentsline {chapter}{\numberline {2}Hauptteil}{5}{}%
-\contentsline {section}{\numberline {2.1}Ipsum dolor}{5}{}%
-\contentsline {section}{\numberline {2.2}consetetur sadipscing}{5}{}%
-\contentsline {subsection}{\numberline {2.2.1}et accusam}{6}{}%
-\contentsline {chapter}{\numberline {3}Anhang}{7}{}%
+\contentsline {chapter}{\numberline {2}Hauptteil}{4}{}%
+\contentsline {section}{\numberline {2.1}Ipsum dolor}{4}{}%
+\contentsline {section}{\numberline {2.2}consetetur sadipscing}{4}{}%
+\contentsline {subsection}{\numberline {2.2.1}et accusam}{5}{}%
+\contentsline {chapter}{\numberline {3}Anhang}{6}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

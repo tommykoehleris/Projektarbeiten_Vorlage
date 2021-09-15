@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.7)  15 SEP 2021 10:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.7)  15 SEP 2021 11:01
 entering extended mode
 **"./Vorlage PA.tex"
 (Vorlage PA.tex
@@ -340,21 +340,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 chapter 1.
-) [3
+) (Hauptteil.tex [3
 
-] (Hauptteil.tex [4]
+]
 chapter 2.
-[5
+[4
 
-]) (Anhang.tex [6]
+]) (Anhang.tex [5]
 chapter 3.
-) [7
+) [6
 
 ] (Vorlage PA.aux) ) 
 Here is how much of TeX's memory you used:
  6812 strings out of 478927
  131464 string characters out of 2853010
- 577250 words of memory out of 3000000
+ 575252 words of memory out of 3000000
  24595 multiletter control sequences out of 15000+600000
  410770 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -363,9 +363,9 @@ Here is how much of TeX's memory you used:
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/toko/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmr12.pfb><C:/Users/toko/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on "Vorlage PA.pdf" (7 pages, 55505 bytes).
+Output written on "Vorlage PA.pdf" (6 pages, 54258 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
