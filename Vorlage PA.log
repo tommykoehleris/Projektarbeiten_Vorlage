@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.7)  15 SEP 2021 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.7)  22 SEP 2021 11:02
 entering extended mode
 **"./Vorlage PA.tex"
 (Vorlage PA.tex
@@ -346,16 +346,36 @@ chapter 1.
 chapter 2.
 [4
 
-]) (Anhang.tex [5]
+]
+Underfull \hbox (badness 1253) in paragraph at lines 53--54
+\OT1/cmr/m/n/12 leich-te Schau-er zu er-war-
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 57--58
+\OT1/cmr/m/n/12 die Son-ne 4h durch den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\OT1/cmr/m/n/12 teils bew[]olkten Him-mel.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\OT1/cmr/m/n/12 Mit 30% Nie-der-schlags-
+ []
+
+) (Anhang.tex [5]
 chapter 3.
 ) [6
 
 ] (Vorlage PA.aux) ) 
 Here is how much of TeX's memory you used:
- 6812 strings out of 478927
- 131464 string characters out of 2853010
- 575252 words of memory out of 3000000
- 24595 multiletter control sequences out of 15000+600000
+ 6813 strings out of 478927
+ 131479 string characters out of 2853010
+ 576262 words of memory out of 3000000
+ 24596 multiletter control sequences out of 15000+600000
  410770 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,108p,10609b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -363,7 +383,7 @@ Here is how much of TeX's memory you used:
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/toko/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmr12.pfb><C:/Users/toko/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on "Vorlage PA.pdf" (6 pages, 54258 bytes).
+Output written on "Vorlage PA.pdf" (6 pages, 56065 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

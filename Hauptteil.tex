@@ -11,7 +11,51 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 \subsection{et accusam}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
+\section{Tabellentest}
+
+\begin{table} [htb]				%um eine Caption und Label hinzufügen zu können
+\begin{tabular}{ l | c ||r }
+
+%c 	Zentrierter Text
+%l 	linksbündiger Text
+%r 	rechtsbündiger Text
+
+\hline							%für horizontale Linie
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9 \\
+\hline
+
+\end{tabular}
+
+\begin{tabular}{| l | r |}
+
+\hline					
+1 & Eins \\
+4 & Vier \\ \cline{2-2}			%horizontale Linie cline{von Spalte...bis Spalte...}
+7 & ... \\
+\hline \hline					%doppelte Linie				
+
+\end{tabular}
+\caption{Hier sind zwei kurze Tabellentests}	%caption für die Tabelle
+\label{tabellentests}			%um später auf die Tabelle zu verweisen können
+\end{table}
+
+Wetterbericht für Schmölln
+
+\begin{tabular}{| l | l | l | p{5cm} |}
+
+\hline
+Tag & Min. Temp. & Max. Temp. & Zusammenfassung \\
+\hline \hline
+Montag, 27.09. & 13C & 21C & Mit 80\% Wahrscheinlichkeit leichte Schauer zu erwarten. Es bleibt wolkig, mit 2h Sonnenschein. \\
+\hline
+Dienstag, 28.09. & 13C & 17C & Kein Niederschlag zu erwarten (60\% Regenwahrscheinlichkeit). Teils bewölkt und es scheint 4h die Sonne. \\
+\hline
+Mittwoch, 29.09. & 10C & 20C & Auch am Mittwoch scheint die Sonne 4h durch den teils bewölkten Himmel. Mit 30\% Niederschlagswahrscheinlichkeit ist kein Regen zu erwarten. \\
+\hline
+
+\end{tabular}
 
