@@ -1,12 +1,18 @@
-\documentclass[a4paper,12pt]{scrreprt}
+\documentclass[liststotoc,a4paper,12pt]{scrreprt}
 
 \usepackage{ucs}				%auch UTF8 package, gleich wie utf8x{inputenc}
 %\usepackage[utf8x]{inputenc}	%damit man UTF8 benutzt
 \usepackage[ngerman]{babel}		%für ä,ö,ü usw.
 \usepackage{graphicx} 			%zum Bilder einfügen
-%\usepackage[T1]{fontenc}		%andere Schriftart
+\usepackage{biolinum}			%libertine/biolinum Schriftart
 \usepackage{amssymb}			%für Symbol
 \usepackage{parskip}			%für Zeilenumbrüche mit \par
+\usepackage{acronym}			%für einfaches Alphabetisch sortiertes 														Abkürzungsverzeichnis --> [printonlyused] damit nur die 									ins PDF kommen, welche auch verwendet wurden
+
+\usepackage{pdfpages}			%PDF-Dokumente einbinden
+\usepackage{epstopdf}			%.eps-Dateien einbinden (DHGE_Logo)
+
+\renewcommand{\familydefault}{\sfdefault}	%Biolinum serifenlos machen (\sfdefault), 													siehe README libertine_package
 
 %SCR PAGESTYLE
 
@@ -41,11 +47,31 @@
 
 \input{Titelseite}
 
+\pagenumbering{Roman}
+
+%Inhaltsverzeichnis
 \tableofcontents
+
+\newpage
+\input{Abkürzungsverzeichnis}
+
+% Abbildungsverzeichnis
+\listoffigures
+
+% Tabellenverzeichnis
+\listoftables
+
+\newpage
+\newcounter{romanpagenumber} \setcounter{romanpagenumber}{\value{page}}
+\pagenumbering{arabic}
 
 \input{Einleitung}
 
 \input{Hauptteil}
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{\value{romanpagenumber}}
 
 \input{Anhang}
 
